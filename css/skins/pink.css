@@ -6,6 +6,9 @@
     border-right: 4px solid #ec1839;
     border-bottom: 4px solid #ec1839;
 }
+.portafolio .portafolio-item .portafolio-info .icon .fa,
+.portafolio .portafolio-filter button.active,
+.service .service-item .service-item-inner .icon .fab,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
@@ -25,4 +28,7 @@
 .aside .nav-toggler span::after,
 .home .intro .social-links a{
     background-color: #ec1839;
+}
+.portafolio .portafolio-filter button.active{
+    border-color: #ec1839;
 }

@@ -1,6 +1,7 @@
 
 /*Font Awesome Free Icon*/
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); */
+
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
@@ -507,7 +508,17 @@ body{
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner .icon .fab{
+    font-size: 40px;
+    line-height: 60px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 .service .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;
+}
+.service .service-item .service-item-inner:hover .icon .fab{
     font-size: 25px;
     color: #ffffff;
 }
@@ -523,4 +534,105 @@ body{
     color: #504e70;
     line-height: 25px;
     margin: 0;
+    text-align: left;
 }
+
+        /* Portafolio section */
+.portafolio .container{
+    padding-bottom: 40px;
+}
+.portafolio .portafolio-filter{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.portafolio .portafolio-filter button{
+    border: none;
+    background-color: transparent;
+    font-size:  18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 10px;
+    color: #302e4d;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    padding-bottom: 2px;
+    -webkit-transition:  all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.portafolio .portafolio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.portafolio .portafolio-item-inner{
+    border: 6px solid #fdf9ff;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.portafolio .portafolio-item-inner .portafolio-img img{
+    width: 100%;
+    display: block;
+}
+.portafolio .portafolio-item .portafolio-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding: 30px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.portafolio .portafolio-item-inner:hover .portafolio-info{
+    opacity: 1;
+}
+.portafolio .portafolio-item .portafolio-info h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+    opacity: 0;
+}
+.portafolio .portafolio-item-inner:hover .portafolio-info h4{
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.portafolio .portafolio-item .portafolio-info .icon{
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+
+}
+.portafolio .portafolio-item-inner:hover .portafolio-info .icon{
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.portafolio .portafolio-item .portafolio-info .icon .fa{
+    line-height: 40px;
+}
+/* lightbox */
