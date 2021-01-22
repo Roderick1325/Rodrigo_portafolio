@@ -45,7 +45,7 @@
     <div class="main-content">
 
       <!-- Home Section -->
-      <section class="home section hidden">
+      <section class="home section">
         <div class="container">
           <div class="intro">
             <img src="images/about.jpg" alt="profile" class="shadow-dark">
@@ -63,7 +63,7 @@
       <!-- Home Section End -->
 
       <!-- About Section -->
-      <section class="about section hidden">
+      <section class="about section">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -202,7 +202,7 @@
       </section>
       <!-- About Section End-->
       <!-- Service section start -->
-      <section class="service section hidden">
+      <section class="service section">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -301,7 +301,7 @@
             </div>
             <!-- Portafolio Item End-->
             <!-- Portafolio Item -->
-            <div class="portafolio-item padd-15" data-category="Proyects">
+            <div class="portafolio-item padd-15" data-category="proyects">
               <div class="portafolio-item-inner shadow-dark">
                 <div class="portafolio-img">
                   <img src="/images/portfolio/2.jpg" alt="portafolio">
@@ -316,7 +316,7 @@
             </div>
             <!-- Portafolio Item End-->
             <!-- Portafolio Item -->
-            <div class="portafolio-item padd-15" data-category="Proyects">
+            <div class="portafolio-item padd-15" data-category="proyects">
               <div class="portafolio-item-inner shadow-dark">
                 <div class="portafolio-img">
                   <img src="/images/portfolio/3.jpg" alt="portafolio">
@@ -331,7 +331,7 @@
             </div>
             <!-- Portafolio Item End-->
             <!-- Portafolio Item -->
-            <div class="portafolio-item padd-15" data-category="UI Design">
+            <div class="portafolio-item padd-15" data-category="ui-design">
               <div class="portafolio-item-inner shadow-dark">
                 <div class="portafolio-img">
                   <img src="/images/portfolio/4.jpg" alt="portafolio">
@@ -346,7 +346,7 @@
             </div>
             <!-- Portafolio Item End-->
             <!-- Portafolio Item -->
-            <div class="portafolio-item padd-15" data-category="UI Design">
+            <div class="portafolio-item padd-15" data-category="ui-design">
               <div class="portafolio-item-inner shadow-dark">
                 <div class="portafolio-img">
                   <img src="/images/portfolio/5.jpg" alt="portafolio">
@@ -387,21 +387,21 @@
   <div class="lightbox">
     <div class="lightbox-content">
       <div class="lightbox-close"><i class="fa fa-close"></i></div>
-      <img src="/images/portfolio/2.jpg" class="lightbox-img" alt="">
+      <img src="/images/portfolio/2.jpg" class="lightbox-img" onclick="nextItem()">
       <div class="lightbox-caption">
-        <div class="caption-text">Web Design</div>
-        <div class="caption-counter">1 of 6</div>
+        <div class="caption-text"></div>
+        <div class="caption-counter"></div>
       </div>
     </div>
     <div class="ligthbox-controls">
-      <div class="prev-item"><i class="fa fa-angle-left"></i></div>
-      <div class="next-item"><i class="fa fa-angle-right"></i></div>
+      <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+      <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
     </div>
   </div>
   <!-- Lightbox End-->
-
-  <!-- Template js -->
-  <script src="js/script.js"></script>
+<!-- Template js -->
+<script src="js/script.js"></script>
+  
 </body>
 
 </html>
