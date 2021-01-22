@@ -6,6 +6,8 @@
     border-right: 4px solid #ec1839;
     border-bottom: 4px solid #ec1839;
 }
+.lightbox .ligthbox-controls .prev-item .fa,
+.lightbox .ligthbox-controls .next-item .fa,
 .portafolio .portafolio-item .portafolio-info .icon .fa,
 .portafolio .portafolio-filter button.active,
 .service .service-item .service-item-inner .icon .fab,
