@@ -340,6 +340,10 @@ background-color: transparent;
 .aside .nav li a:not(.active):hover{
     padding-left: 5px;
 }
+.aside .nav li a .far,
+.aside .nav li a .fal,
+.aside .nav li a .fab,
+.aside .nav li a .fas,
 .aside .nav li a .fa{
     margin-right: 5px;
 }
@@ -425,9 +429,9 @@ background-color: transparent;
 }
 .about .about-content .personal-info{
     /* background-color: red; */
-    -ms-flex: 0 0 60%;
-    flex: 0 0 60%;
-    max-width: 60%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 40px;
 }
 .about .about-content .personal-info .info-item{
@@ -460,10 +464,10 @@ background-color: transparent;
 }
 .about .about-content .skills{
     /* background-color: blue; */
-    -ms-flex: 0 0 40%;
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-top: 40px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 22px;
 }
 .about .about-content .skills .skill-item{
     -ms-flex: 0 0 100%;
@@ -623,6 +627,7 @@ background-color: transparent;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner .icon .fas,
 .service .service-item .service-item-inner .icon .fa{
     font-size: 40px;
     line-height: 60px;
@@ -635,6 +640,7 @@ background-color: transparent;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner:hover .icon .fas,
 .service .service-item .service-item-inner:hover .icon .fa{
     font-size: 25px;
     color: #ffffff;
@@ -1048,6 +1054,7 @@ background-color: transparent;
     padding: 0 50px;
 }
 /* Dark */
+body.dark .blog .blog-item-inner,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .blog .blog-item-inner .blog-info,
 body.dark .service .service-item .service-item-inner,
